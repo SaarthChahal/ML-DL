@@ -16,7 +16,8 @@ Import libraries such as numpy, pandas, matplotlib, seaborn etc.  for the analys
 https://github.com/SaarthChahal/ML-DL/blob/main/first%205%20rows%20of%20dataset.png
 
 .columns returns the name of all of your columns in the dataset. 
-< include the screen shot link > 
+
+https://github.com/SaarthChahal/ML-DL/blob/main/dataset%20columns.png
 
 After this I worked on getting better understanding of the different values for each variable. 
 
