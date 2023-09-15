@@ -43,7 +43,11 @@ https://github.com/SaarthChahal/ML-DL/blob/main/cleaned%20dataset.png
 
 **From shapes output: (985543, 23) i.e I was able to reduce 5803 records and 1 column.**
 
+Data Plotting exercise to analyze relation ship between variables. Calculate the correlation matrix.   
+There are too many variables to produce more readable correlation matrix and heatmap. Created 2 smaller array for matrix and heatmap for smoke and drink correlation 
 
+Heatmap for smokers
+https://github.com/SaarthChahal/ML-DL/blob/main/heatmap%20for%20smokers.png
 
 
 
