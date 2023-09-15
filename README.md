@@ -2,15 +2,26 @@
 Goal is to predict Smokers and Drinkers using body signal data. 
 
 •	Manual Observation in identifying variables and  getting familiar with the dataset 
+
 Dataset contains medical records of individual between age 20 to 85. The records consist of details of physical examination such as height, weight, sight, hearing, BP and other health signals through blood test of cholesterol, liver function. Kidney etc.   
+
 Using health statistic, we are trying to classify individual as smokers (may be they quit smoking regular smokers, chain smokers, etc.) and also check if they are consuming alcohol . 
+
 We can use physical examination data to identify outliers values and remove that data. 
+
 We can correlate the HDL, LDL, total cholesterol, haemoglobin data values to smokers, and the kidney and liver function tests (SGoT, urine protein etc.) to drinkers.
+
 And based on new test records of an individual we may try to predict what type of smoker he or she would be.  
+
+
 •	Exploratory Data Analysis (EDA) 
+
 EDA purpose is to understand the dataset, cleanse it and analyse the relationship between variable. 
+
 Import libraries such as numpy, pandas, matplotlib, seaborn etc.  for the analysis. 
+
 .shape returns the number of rows by the number of columns for my dataset. My output was (991346, 24), meaning the dataset has 991346rows and 24 columns. 
+
 .head() returns the first 5 rows of my dataset. This is useful if you want to see some example values for each variable. 
 
 https://github.com/SaarthChahal/ML-DL/blob/main/first%205%20rows%20of%20dataset.png
@@ -54,6 +65,9 @@ https://github.com/SaarthChahal/ML-DL/blob/main/heatmap%20for%20drinkers.png
 
 Scatterplot for total cholestrol of smokoers
 https://github.com/SaarthChahal/ML-DL/blob/main/total%20cholestrol%20scatterplot%20for%20smokers.png
+
+Scatterplots for pairs of variables
+https://github.com/SaarthChahal/ML-DL/blob/main/scatterplots%20for%20pairs%20of%20variables.png
 
 
 
