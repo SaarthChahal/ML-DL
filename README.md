@@ -52,6 +52,9 @@ https://github.com/SaarthChahal/ML-DL/blob/main/heatmap%20for%20smokers.png
 Heatmap for drinkers
 https://github.com/SaarthChahal/ML-DL/blob/main/heatmap%20for%20drinkers.png
 
+Scatterplot for total cholestrol of smokoers
+https://github.com/SaarthChahal/ML-DL/blob/main/total%20cholestrol%20scatterplot%20for%20smokers.png
+
 
 
 
