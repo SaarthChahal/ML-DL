@@ -14,6 +14,7 @@ Import libraries such as numpy, pandas, matplotlib, seaborn etc.  for the analys
 .head() returns the first 5 rows of my dataset. This is useful if you want to see some example values for each variable. 
 
 https://github.com/SaarthChahal/ML-DL/blob/main/first%205%20rows%20of%20dataset.png
+
 .columns returns the name of all of your columns in the dataset. 
 < include the screen shot link > 
 
