@@ -37,8 +37,13 @@ data.describe().apply(lambda s: s.apply(lambda x: format(x, 'f'))) output
 Used .dropna(axis=0) to remove any rows with null values. There was no null value so cleaned data still returned the same (991346, 24) for data_cleaned.shape 
 Removed outliers by using varaible.between( lower limit, upper limit ) and variable < limit 
 Data for analysis does not use string datatype as an argument , I could have encoded the gender variable labelled as ‘sex’ to number for male or female or I could have dropped column itself. I choose to drop the column by using .drop(‘variable’) 
-Also I encoded /converted DRK_YN variable string values ( Y on N) to number 1 or 0 
-From shapes output: (985543, 23) i.e I was able to reduce 5803 records and 1 column. 
+Also I encoded /converted DRK_YN variable string values ( Y on N) to number 1 or 0
+
+https://github.com/SaarthChahal/ML-DL/blob/main/cleaned%20dataset.png
+
+**From shapes output: (985543, 23) i.e I was able to reduce 5803 records and 1 column.**
+
+
 
 
 
