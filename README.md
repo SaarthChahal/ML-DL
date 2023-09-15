@@ -49,6 +49,9 @@ There are too many variables to produce more readable correlation matrix and hea
 Heatmap for smokers
 https://github.com/SaarthChahal/ML-DL/blob/main/heatmap%20for%20smokers.png
 
+Heatmap for drinkers
+https://github.com/SaarthChahal/ML-DL/blob/main/heatmap%20for%20drinkers.png
+
 
 
 
