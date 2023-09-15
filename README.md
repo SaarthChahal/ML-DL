@@ -12,8 +12,8 @@ EDA purpose is to understand the dataset, cleanse it and analyse the relationshi
 Import libraries such as numpy, pandas, matplotlib, seaborn etc.  for the analysis. 
 .shape returns the number of rows by the number of columns for my dataset. My output was (991346, 24), meaning the dataset has 991346rows and 24 columns. 
 .head() returns the first 5 rows of my dataset. This is useful if you want to see some example values for each variable. 
-< include the screen shot link for the first 5 rows > 
 
+https://github.com/SaarthChahal/ML-DL/blob/main/first%205%20rows%20of%20dataset.png
 .columns returns the name of all of your columns in the dataset. 
 < include the screen shot link > 
 
