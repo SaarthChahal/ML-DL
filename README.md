@@ -73,6 +73,7 @@ https://github.com/SaarthChahal/ML-DL/blob/main/scatterplots%20for%20pairs%20of%
 
 **Learning Model**
 
+coefficients: https://github.com/SaarthChahal/ML-DL/blob/main/coefficient.png
 
 
 
