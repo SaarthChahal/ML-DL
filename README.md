@@ -24,7 +24,8 @@ After this I worked on getting better understanding of the different values for 
 .nunique(axis=0) returns the number of unique values for each variable.
 
 .describe() summarizes the count, mean, standard deviation, min, and max for numeric variables
-< include the screen shot link of the output> Just as it is shown below. 
+
+https://github.com/SaarthChahal/ML-DL/blob/main/describe%20dataset.png
  
 data.describe().apply(lambda s: s.apply(lambda x: format(x, 'f'))) output 
 
