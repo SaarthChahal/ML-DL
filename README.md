@@ -133,5 +133,7 @@ MSE:2 0.23847155682695156
 
 RMSE:2 0.4883354961775271
 
+List of variables used: https://github.com/SaarthChahal/ML-DL/blob/main/variables.png
+
 
 
