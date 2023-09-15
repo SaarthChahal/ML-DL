@@ -66,7 +66,7 @@ https://github.com/SaarthChahal/ML-DL/blob/main/heatmap%20for%20drinkers.png
 Scatterplot for total cholestrol of smokers
 https://github.com/SaarthChahal/ML-DL/blob/main/total%20cholestrol%20scatterplot%20for%20smokers.png
 
-Scatterplots for key variables together
+using sns.pairplot() created scatterplots between some of key variables
 https://github.com/SaarthChahal/ML-DL/blob/main/scatterplots%20for%20pairs%20of%20variables.png
 
 
