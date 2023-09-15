@@ -72,10 +72,66 @@ https://github.com/SaarthChahal/ML-DL/blob/main/scatterplots%20for%20pairs%20of%
 **Model training module**
 
 **Learning Model**
+Train learning regression model  
+We will need to first split up our data into an X1 array(cholesterol)  that contains the features to train on, 
+And a y1 array(SMK_stat_type_cd) with the target variable, 
+split up our data into an X2 array(Kidney function) that contains the features to train on, 
+And a y2 array(DRK_YN)
 
-coefficients: https://github.com/SaarthChahal/ML-DL/blob/main/coefficient.png
+Train test split. test split is 40 % train set is 60 % 
+
+Loading the linear regression Model
+prediction on Training data 
+
+**Model evlauation.**  
+Let's evaluate the model by checking out it's coefficients and how we can interpret them.
+
+Learning model intercept 1 (smokers): -1.2726375396245835
+Learning model intercept 2 (drinkers) : 0.4141733052412185
+Coefficients for smokers: https://github.com/SaarthChahal/ML-DL/blob/main/coefficient.png
+Coefficient for drinkers: https://github.com/SaarthChahal/ML-DL/blob/main/coefficient2.png
+
+Interpreting the coefficient.
+For every one unit change in smoke status there is negative impact on Cholestrol ( refelcted as negative)
+and increase in  triglyceride and  hemoglobin which negatively affect the health indicator. 
 
 
+**Prediction from Model**
+Prediction scatterplot for smokers: https://github.com/SaarthChahal/ML-DL/blob/main/prediction%20scatterplot%20for%20smokers.png
+
+Displot prediction for smokers: https://github.com/SaarthChahal/ML-DL/blob/main/displot%20method%20for%20smokers.png
+
+Prediction scatterplot for drinkers: https://github.com/SaarthChahal/ML-DL/blob/main/scatterplot%20prediction%20for%20drinkers.png
+
+Displot scatterplot for drinkers: https://github.com/SaarthChahal/ML-DL/blob/main/displot%20method%20for%20smokers.png
+
+
+**Regression Evaluation Metrics**
+Here are three common evaluation metrics for regression problems:
+
+Mean Absolute Error** (MAE) is the mean of the absolute value of the errors: is the easiest to understand, because it's the average error.
+
+Mean Squared Error** (MSE) is the mean of the squared errors: is more popular than MAE, because MSE "punishes" larger errors, which tends to be useful in the real world.
+
+Root Mean Squared Error** (RMSE) is the square root of the mean of the squared errors: is even more popular than MSE, because RMSE is interpretable in the "y" units.
+
+
+Regression Evaluation Metrics for smokers:
+
+MAE:1 1.1094765424193946
+
+MSE:1 1.8638480376557032
+
+RMSE:1 1.3652281998463491
+
+
+Regression Evaluation Metrics for drinkers:
+
+MAE:2 0.4814403810202582
+
+MSE:2 0.23847155682695156
+
+RMSE:2 0.4883354961775271
 
 
 
