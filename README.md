@@ -31,7 +31,8 @@ data.describe().apply(lambda s: s.apply(lambda x: format(x, 'f'))) output
 
 
 
-**Cleaning your DataSet by removing outliers, nulls.**\n
+**Cleaning your DataSet by removing outliers, nulls.**
+
 
 Used .dropna(axis=0) to remove any rows with null values. There was no null value so cleaned data still returned the same (991346, 24) for data_cleaned.shape 
 Removed outliers by using varaible.between( lower limit, upper limit ) and variable < limit 
