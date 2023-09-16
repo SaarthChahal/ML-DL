@@ -14,7 +14,7 @@ We can correlate the HDL, LDL, total cholesterol, haemoglobin data values to smo
 And based on new test records of an individual we may try to predict what type of smoker he or she would be.  
 
 
-•	Exploratory Data Analysis (EDA) 
+# Exploratory Data Analysis (EDA) 
 
 EDA purpose is to understand the dataset, cleanse it and analyse the relationship between variable. 
 
@@ -50,7 +50,7 @@ Removed outliers by using varaible.between( lower limit, upper limit ) and varia
 Data for analysis does not use string datatype as an argument , I could have encoded the gender variable labelled as ‘sex’ to number for male or female or I could have dropped column itself. I choose to drop the column by using .drop(‘variable’) 
 Also I encoded /converted DRK_YN variable string values ( Y on N) to number 1 or 0
 
-!(https://github.com/SaarthChahal/ML-DL/blob/main/cleaned%20dataset.png)
+https://github.com/SaarthChahal/ML-DL/blob/main/cleaned%20dataset.png
 
 **From shapes output: (985543, 23) i.e I was able to reduce 5803 records and 1 column.**
 
@@ -69,9 +69,9 @@ https://github.com/SaarthChahal/ML-DL/blob/main/total%20cholestrol%20scatterplot
 using sns.pairplot() created scatterplots between some of key variables
 https://github.com/SaarthChahal/ML-DL/blob/main/scatterplots%20for%20pairs%20of%20variables.png
 
-**Model training module**
+# Model training module
 
-**Learning Model**
+**LINEAR REGRESSION MODEL**
 
 Train linear regression model.
 
@@ -145,6 +145,12 @@ List of variables used: https://github.com/SaarthChahal/ML-DL/blob/main/variable
 
 
 **DECISION TREE AND RANDOM FOREST MODEL**
+
+|**Decision Tree**                         |**Random Forest**                        |
+|------------------------------------------|-----------------------------------------|
+|A decision tree is a tree-like model of  
+decisions along with possible 
+outcomesin a diagram.                      
 
 
 supervised, regression machine learning problem. It’s supervised because we have both the features (data on health parameters) and the targets (Smokers and Drinkers) that we want to predict
