@@ -148,7 +148,11 @@ List of variables used: https://github.com/SaarthChahal/ML-DL/blob/main/variable
 
 |**Decision Tree**|**Random Forest**|
 |-----------------|-----------------|
-|A decision tree is a tree-like model of  decisions along with possible outcomes in a diagram.|A classification algorithm consisting of many decision trees combined to get a more accurate result as compared to a single tree.|                    
+|A decision tree is a tree-like model of  decisions along with possible outcomes in a diagram.|A classification algorithm consisting of many decision trees combined to get a more accurate result as compared to a single tree.|
+|There is always a scope for overfitting, caused due to the presence of variance.|Random forest algorithm avoids and prevents overfitting by using multiple trees.|
+|The results are not accurate.|This gives accurate and precise results.|
+|Decision trees require low computation, thus reducing time to implement and carrying low accuracy.|This consumes more computation. The process of generation and analyzing is time-consuming.|
+|It is easy to visualize. The only task is to fit the decision tree model.|This has complex visualization as it determines the pattern behind the data.|
 
 
 supervised, regression machine learning problem. It’s supervised because we have both the features (data on health parameters) and the targets (Smokers and Drinkers) that we want to predict
