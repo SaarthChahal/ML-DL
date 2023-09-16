@@ -155,7 +155,7 @@ List of variables used: https://github.com/SaarthChahal/ML-DL/blob/main/variable
 |It is easy to visualize. The only task is to fit the decision tree model.|This has complex visualization as it determines the pattern behind the data.|
 
 
-supervised, regression machine learning problem. It’s supervised because we have both the features (data on health parameters) and the targets (Smokers and Drinkers) that we want to predict
+Supervised, regression machine learning problem. It’s supervised because we have both the features (data on health parameters) and the targets (Smokers and Drinkers) that we want to predict
 
 
 The reported averages include macro average (averaging the unweighted mean per label), weighted average (averaging the support-weighted mean per label), and sample average (only for multilabel classification). Micro average (averaging the total true positives, false negatives and false positives) is only shown for multi-label or multi-class with a subset of classes, because it corresponds to accuracy otherwise and would be the same for all metrics
@@ -172,7 +172,7 @@ The F-beta score weights recall more than precision by a factor of beta. beta ==
 
 Smokers metrics for decision tree:
 
-              precision    recall  f1-score   support
+              precision    recall   f1-score  support
 
            1       0.77      0.75      0.76    179903
            2       0.31      0.32      0.32     52132
@@ -185,7 +185,7 @@ Smokers metrics for decision tree:
 
 Smokers metrics for random forest model:
 
-                    precision recall f1-score support
+               precision   recall   f1-score  support
                    
            1       0.80      0.85      0.82    179903
            2       0.43      0.32      0.37     52132
@@ -194,6 +194,19 @@ Smokers metrics for random forest model:
     accuracy                           0.69    295663
     macro avg       0.58      0.57     0.57    295663
     weighted avg    0.67      0.69     0.68    295663
+
+  
+  Drinkers metrics for decision tree:
+
+                 ```precision    recall  f1-score   support
+
+           0       0.63      0.63      0.63    147705
+           1       0.63      0.63      0.63    147958
+
+    accuracy                           0.63    295663
+    macro avg       0.63      0.63      0.63    295663
+    weighted avg       0.63      0.63      0.63    295663```
+  
    
 
 Confusion Matrix.
@@ -216,10 +229,16 @@ Decision Tree Confusion Matrix for smokers:
     [ 21749  15999  25880]]
 
 
-Random Tree Confusion Matrix for smokers:
+Random Forest Confusion Matrix for smokers:
 
     [[152378  11722  15803]
+    
     [ 19136  16504  16492]
+    
     [ 19491   9826  34311]]
- 
+
+  
+ Decision Tree Confusion Matrix for drinkers:
+    `[[93021 54684]`
+    `[54020 93938]]`
 
