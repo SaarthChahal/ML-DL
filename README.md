@@ -187,10 +187,11 @@ The higher the diagonal values of the confusion matrix the better, indicating ma
 
 
 Decision Tree Confusion Matrix for smokers: 
-[[135735  20884  23284]
 
- [ 19324  16859  15949]
+    [[135735  20884  23284]
+
+    [ 19324  16859  15949]
  
- [ 21749  15999  25880]]
+    [ 21749  15999  25880]]
  
 
