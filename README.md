@@ -72,7 +72,9 @@ https://github.com/SaarthChahal/ML-DL/blob/main/scatterplots%20for%20pairs%20of%
 **Model training module**
 
 **Learning Model**
-Train linear regression model  
+
+Train linear regression model.
+
 We will need to first split up our data into an X1 array(cholesterol)  that contains the features to train on, 
 And a y1 array(SMK_stat_type_cd) with the target variable, 
 split up our data into an X2 array(Kidney function) that contains the features to train on, 
@@ -87,13 +89,19 @@ prediction on Training data
 Let's evaluate the model by checking out it's coefficients and how we can interpret them.
 
 Learning model intercept 1 (smokers): -1.2726375396245835
+
 Learning model intercept 2 (drinkers) : 0.4141733052412185
 Coefficients for smokers: https://github.com/SaarthChahal/ML-DL/blob/main/coefficient.png
+
 Coefficient for drinkers: https://github.com/SaarthChahal/ML-DL/blob/main/coefficient2.png
 
+
 Interpreting the coefficient.
+
 For every one unit change in smoke status there is negative impact on Cholestrol ( refelcted as negative)
+
 and increase in  triglyceride and  hemoglobin which negatively affect the health indicator. 
+
 
 
 **Prediction from Model**
