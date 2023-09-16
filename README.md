@@ -158,8 +158,10 @@ The F-beta score weights recall more than precision by a factor of beta. beta ==
 Confusion Matrix.
 
 Confusion matrix to evaluate the accuracy of a classification. 
-confusion matrix usage to evaluate the quality of the output of a classifier on the data. 
-The diagonal elements represent the number of points for which the predicted label is equal to the true label, 
-while off-diagonal elements are those that are mislabeled by the classifier. 
+
+Confusion matrix usage to evaluate the quality of the output of a classifier on the data. 
+
+The diagonal elements represent the number of points for which the predicted label is equal to the true label, while off-diagonal elements are those that are mislabeled by the classifier. 
+
 The higher the diagonal values of the confusion matrix the better, indicating many correct predictions.
 
