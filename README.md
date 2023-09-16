@@ -72,7 +72,7 @@ https://github.com/SaarthChahal/ML-DL/blob/main/scatterplots%20for%20pairs%20of%
 **Model training module**
 
 **Learning Model**
-Train learning regression model  
+Train linear regression model  
 We will need to first split up our data into an X1 array(cholesterol)  that contains the features to train on, 
 And a y1 array(SMK_stat_type_cd) with the target variable, 
 split up our data into an X2 array(Kidney function) that contains the features to train on, 
@@ -136,4 +136,30 @@ RMSE:2 0.4883354961775271
 List of variables used: https://github.com/SaarthChahal/ML-DL/blob/main/variables.png
 
 
+**DECISION TREE AND RANDOM FOREST MODEL**
+
+
+supervised, regression machine learning problem. It’s supervised because we have both the features (data on health parameters) and the targets (Smokers and Drinkers) that we want to predict
+
+
+The reported averages include macro average (averaging the unweighted mean per label), weighted average (averaging the support-weighted mean per label), and sample average (only for multilabel classification). Micro average (averaging the total true positives, false negatives and false positives) is only shown for multi-label or multi-class with a subset of classes, because it corresponds to accuracy otherwise and would be the same for all metrics
+
+
+Classfication metrics. 
+
+The precision is the ratio tp / (tp + fp) where tp is the number of true positives and fp the number of false positives. The precision is intuitively the ability of the classifier not to label a negative sample as positive. 
+
+The recall is the ratio tp / (tp + fn) where tp is the number of true positives and fn the number of false negatives. The recall is intuitively the ability of the classifier to find all the positive samples.
+
+Fscore. The F-beta score can be interpreted as a weighted harmonic mean of the precision and recall, where an F-beta score reaches its best value at 1 and worst score at 0.
+The F-beta score weights recall more than precision by a factor of beta. beta == 1.0 means recall and precision are equally important.    
+
+
+Confusion Matrix.
+
+# Confusion matrix to evaluate the accuracy of a classification. 
+# confusion matrix usage to evaluate the quality of the output of a classifier on the data. 
+# The diagonal elements represent the number of points for which the predicted label is equal to the true label, 
+# while off-diagonal elements are those that are mislabeled by the classifier. 
+# The higher the diagonal values of the confusion matrix the better, indicating many correct predictions.
 
