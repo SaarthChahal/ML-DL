@@ -163,8 +163,9 @@ Smokers metrics for decision tree:
            3       0.40      0.41      0.40     63628
 
     accuracy                           0.60    295663
-   macro avg       0.49      0.49      0.49    295663
-weighted avg       0.61      0.60      0.61    295663
+    macro avg      0.49      0.49      0.49    295663
+    weighted avg   0.61      0.60      0.61    295663
+   
 
 Confusion Matrix.
 
