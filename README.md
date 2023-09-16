@@ -173,6 +173,19 @@ Smokers metrics for decision tree:
     accuracy                           0.60    295663
     macro avg      0.49      0.49      0.49    295663
     weighted avg   0.61      0.60      0.61    295663
+
+
+Smokers metrics for random forest model:
+
+                    precision recall f1-score support
+                   
+           1       0.80      0.85      0.82    179903
+           2       0.43      0.32      0.37     52132
+           3       0.52      0.54      0.53     63628
+
+    accuracy                           0.69    295663
+    macro avg       0.58      0.57     0.57    295663
+    weighted avg    0.67      0.69     0.68    295663
    
 
 Confusion Matrix.
@@ -193,5 +206,12 @@ Decision Tree Confusion Matrix for smokers:
     [ 19324  16859  15949]
  
     [ 21749  15999  25880]]
+
+
+Random Tree Confusion Matrix for smokers:
+
+    [[152378  11722  15803]
+    [ 19136  16504  16492]
+    [ 19491   9826  34311]]
  
 
