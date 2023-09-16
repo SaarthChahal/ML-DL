@@ -260,3 +260,50 @@ Random Forest Confusion Matrix for smokers:
 [ 41075 106883]]
 ``` 
 
+
+# Conclusion
+
+
+To compare linear regression, decision trees, and random forests for supervised learning, let's assess them based on performance, accuracy, computational speed, and memory usage. Keep in mind that the specific results may vary depending on your dataset and implementation, but I can provide a general comparison:
+
+## Linear Regression:
+
+*   Performance:
+      Linear regression performs well when the relationship between features and the target variable is roughly linear.
+*   Accuracy:
+      Accuracy is moderate when dealing with linear relationships but may suffer when data has complex, non-linear patterns.
+*   Computational Speed:
+      Linear regression is very computationally efficient and quick to train.
+*   Memory Usage:
+      Linear regression models have a small memory footprint as they store coefficients for each feature.
+
+## Decision Tree:
+
+*   Performance:
+      Decision trees are versatile and can capture both linear and non-linear relationships in data.
+*   Accuracy:
+      Decision trees can provide high accuracy but may overfit when not properly pruned.
+*   Computational Speed:
+      Building decision trees is usually fast, especially for small to moderately sized datasets.
+*   Memory Usage:
+      Decision trees can consume moderate memory, especially if they are deep.
+    
+## Random Forest:
+
+*   Performance:
+Random forests are robust and handle non-linearity well, making them suitable for a wide range of problems.
+*   Accuracy:
+Random forests often provide high accuracy and reduce overfitting through ensemble techniques.
+*   Computational Speed:
+Training a random forest involves building multiple decision trees, which can be slower than linear regression but faster than training a deep single decision tree for large datasets.
+*   Memory Usage:
+Random forests consume more memory than linear regression but are typically more memory-efficient than deep decision trees.
+
+
+### In summary:
+
+Linear Regression is computationally efficient and interpretable but may not perform well with complex, non-linear data.
+
+Decision Trees are versatile and can capture non-linear relationships but may overfit and require careful pruning.
+
+Random Forests are robust, accurate, and handle non-linearity well, making them suitable for a wide range of tasks. They offer a balance between accuracy and computational efficiency.
