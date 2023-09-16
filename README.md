@@ -240,5 +240,6 @@ Random Forest Confusion Matrix for smokers:
   
  Decision Tree Confusion Matrix for drinkers:
     ```[[93021 54684]
-    [54020 93938]]```
+    [54020 93938]]
+    ```
 
