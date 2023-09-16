@@ -204,10 +204,20 @@ Smokers metrics for random forest model:
            1       0.63      0.63      0.63    147958
 
     accuracy                           0.63    295663
-    macro avg       0.63      0.63      0.63    295663
-    weighted avg       0.63      0.63      0.63    295663
+    macro avg       0.63      0.63     0.63    295663
+    weighted avg    0.63      0.63     0.63    295663
   
-   
+   Drinkers metrics for random forest model:
+
+                 precision    recall  f1-score   support
+
+           0       0.72       0.72      0.72    147705
+           1       0.72       0.72      0.72    147958
+
+    accuracy                            0.63    295663
+    macro avg       0.72      0.72      0.63    295663
+    weighted avg    0.72      0.72      0.63    295663
+
 
 Confusion Matrix.
 
@@ -239,7 +249,14 @@ Random Forest Confusion Matrix for smokers:
 
   
  Decision Tree Confusion Matrix for drinkers:
-    ```[[93021 54684]
-    [54020 93938]]
-    ```
+```
+[[93021 54684]
+[54020 93938]]
+```
+
+ Random Forest Confusion Matrix for drinkers:
+```
+[[106993  40712]
+[ 41075 106883]]
+``` 
 
