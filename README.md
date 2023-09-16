@@ -145,7 +145,7 @@ supervised, regression machine learning problem. It’s supervised because we ha
 The reported averages include macro average (averaging the unweighted mean per label), weighted average (averaging the support-weighted mean per label), and sample average (only for multilabel classification). Micro average (averaging the total true positives, false negatives and false positives) is only shown for multi-label or multi-class with a subset of classes, because it corresponds to accuracy otherwise and would be the same for all metrics
 
 
-Classfication metrics. 
+**Classfication metrics.** 
 
 The precision is the ratio tp / (tp + fp) where tp is the number of true positives and fp the number of false positives. The precision is intuitively the ability of the classifier not to label a negative sample as positive. 
 
@@ -154,6 +154,17 @@ The recall is the ratio tp / (tp + fn) where tp is the number of true positives 
 Fscore. The F-beta score can be interpreted as a weighted harmonic mean of the precision and recall, where an F-beta score reaches its best value at 1 and worst score at 0.
 The F-beta score weights recall more than precision by a factor of beta. beta == 1.0 means recall and precision are equally important.    
 
+Smokers metrics for decision tree:
+
+              precision    recall  f1-score   support
+
+           1       0.77      0.75      0.76    179903
+           2       0.31      0.32      0.32     52132
+           3       0.40      0.41      0.40     63628
+
+    accuracy                           0.60    295663
+   macro avg       0.49      0.49      0.49    295663
+weighted avg       0.61      0.60      0.61    295663
 
 Confusion Matrix.
 
