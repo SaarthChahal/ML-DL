@@ -307,3 +307,6 @@ Linear Regression is computationally efficient and interpretable but may not per
 Decision Trees are versatile and can capture non-linear relationships but may overfit and require careful pruning.
 
 Random Forests are robust, accurate, and handle non-linearity well, making them suitable for a wide range of tasks. They offer a balance between accuracy and computational efficiency.
+
+
+MY personal recommendation would be to use Random Forest module as it provides the **highest accuracy**, the computational speed may be slow but speed is not crucial for analyzing data on smokers and drinkers.
